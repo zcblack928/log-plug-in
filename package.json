@@ -17,12 +17,21 @@
       {
         "command": "log",
         "title": "log plug in"
+      },
+      {
+        "command": "clog.clog",
+        "title": "fast log"
       }
     ],
     "menus": {
       "editor/context": [
         {
           "command": "log",
+          "group": "navigation",
+          "when": "(resourceLangId == javascript || resourceLangId == typescript || resourceLangId == typescriptreact || resourceLangId == javascriptreact)"
+        },
+        {
+          "command": "clog.clog",
           "group": "navigation",
           "when": "(resourceLangId == javascript || resourceLangId == typescript || resourceLangId == typescriptreact || resourceLangId == javascriptreact)"
         }
@@ -32,6 +41,13 @@
       { 
         "command": "log",
         "key": "shift+c",
+        "mac": "shift+c",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "clog.clog",
+        "key": "shift+x",
+        "mac": "shift+x",
         "when": "editorTextFocus"
       }
     ]
