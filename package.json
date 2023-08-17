@@ -3,7 +3,7 @@
   "displayName": "log-plug-in",
   "description": "log",
   "publisher": "zhangchuan",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -40,14 +40,14 @@
     "keybindings": [
       { 
         "command": "log",
-        "key": "shift+c",
-        "mac": "shift+c",
+        "key": "alt+w",
+        "mac": "alt+w",
         "when": "editorTextFocus"
       },
       {
         "command": "clog.clog",
-        "key": "shift+x",
-        "mac": "shift+x",
+        "key": "alt+q",
+        "mac": "alt+q",
         "when": "editorTextFocus"
       }
     ]
