@@ -3,7 +3,12 @@
   "displayName": "log-plug-in",
   "description": "log",
   "publisher": "zhangchuan",
-  "version": "0.0.3",
+  "icon": "logo.png",
+  "version": "0.0.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zcblack928/log-plug-in.git"
+  },
   "engines": {
     "vscode": "^1.81.0"
   },
